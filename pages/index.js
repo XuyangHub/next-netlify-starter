@@ -10,9 +10,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main>
-                <Header title="AW 工作室隐私声明" />
-                <p className="description">
+            <main style= margin:15px;>
+
+                    <h1>隐私声明</h1>
                     <p>生效日期：2024/10/01</p>
                     <p>更新日期：2024/10/20</p>
                     <hr />
@@ -137,7 +137,7 @@ export default function Home() {
                     <h2>十、其他</h2>
                     <p>本隐私政策适用于您在中国大陆地区使用我们的服务。政策中的标题仅为阅读方便，不影响条款内容的解释。</p>
                     <p>最后更新于：2024/10/20</p>
-              </p>
+             
         </main >
         <Footer />
     </div >

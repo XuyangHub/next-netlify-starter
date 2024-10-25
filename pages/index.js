@@ -11,7 +11,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main style=margin:15px;>
+            <main style={{ margin: '15px' }}>
 
                     <h1>隐私声明</h1>
                     <p>生效日期：2024/10/01</p>

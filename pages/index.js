@@ -4,6 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
     return (
+        
         <div className="container">
             <Head>
                 <title>AW 工作室隐私声明</title>
@@ -32,6 +33,8 @@ export default function Home() {
                             <p>在使用本服务时，如您有跨系统获取和使用第三方平台、服务的数据的行为，您应遵守第三方平台的相关规则，特别是数据保护相关规则，否则您不应该继续使用本服务。</p>
                         </li>
                     </ul>
+					<hr />
+					<br>
                     <h2>一、信息的收集与使用</h2>
                     <p>我们为了提供优质的服务、保障服务的安全运行、优化功能体验，将根据以下目的和方式，收集您在注册、使用服务时主动提供或授权提供的个人信息，以及您在使用服务过程中产生的个人信息：</p>
                     <h3>1.1 使用服务过程中收集信息</h3>
@@ -139,7 +142,7 @@ export default function Home() {
                     <p>最后更新于：2024/10/20</p>
              
         </main >
-        <Footer />
     </div >
+
   )
 }
